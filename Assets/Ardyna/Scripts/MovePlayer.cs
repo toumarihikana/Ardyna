@@ -18,14 +18,16 @@ public class MovePlayer : MonoBehaviour
 
     [SerializeField]float progressTime;
     float movedTime = 0.2f;
-
-
-
+    
     [SerializeField] float baseTheta;
+    //左右への移動角度
     [SerializeField] float defaultMoveTheta = 40f;
     [SerializeField] float baseR;
+    //前後への移動角度
     [SerializeField] float defaultMoveR = 3f;
     [SerializeField] float minimumR = 2f;
+    [SerializeField] float maximumR = 50f;
+
     public void MoveHorizontal(Vector2 direction)
     {
         if (!isMoveing)
@@ -33,28 +35,33 @@ public class MovePlayer : MonoBehaviour
             Debug.Log(direction);
             startPosition = playerObject.transform.position;
 
-            Vector2 posA = new Vector2(startPosition.x, startPosition.z);
-            Vector2 posB = new Vector2(enemyObject.transform.position.x, enemyObject.transform.position.z);
-
-            baseR = Vector2.Distance(posB, posA);
+            Vector2 objectPosition = new Vector2(startPosition.x, startPosition.z);
+            Vector2 originPosition = new Vector2(enemyObject.transform.position.x, enemyObject.transform.position.z);
+            baseR = Vector2.Distance(originPosition, objectPosition);
 
             //floatの誤差を消すためにRoundしている
             baseTheta = Mathf.Round(Mathf.Atan2(startPosition.z, startPosition.x) * Mathf.Rad2Deg);
 
             //左右への移動
+            //前後方向と左右方向の両方を入力していた場合左右方向が優先される
             if (direction.x != 0)
             {
                 float addTheta = defaultMoveTheta * Mathf.Sign(direction.x);
 
-                Vector2 pos3 = CoordinateTransform.PolarToCartesian2D(posB, baseR, addTheta + baseTheta);            
+                Vector2 movedPos = CoordinateTransform.PolarToCartesian2D(originPosition, baseR, addTheta + baseTheta);            
             
-                endPosition.x = pos3.x;
+                endPosition.x = movedPos.x;
                 endPosition.y = startPosition.y;
-                endPosition.z = pos3.y;
+                endPosition.z = movedPos.y;
 
             }
             //原点を超えて前進しない様にする
             else if (baseR <= minimumR && Math.Sign(direction.y) == 1)
+            {
+                return;
+            }
+            //ある程度後ろに行ったら後退できないようにする
+            else if (baseR >= maximumR && Math.Sign(direction.y) == -1)
             {
                 return;
             }
@@ -63,11 +70,11 @@ public class MovePlayer : MonoBehaviour
             {
                 float addR = defaultMoveR * Mathf.Sign(direction.y) * -1;
 
-                Vector2 pos3 = CoordinateTransform.PolarToCartesian2D(posB, addR + baseR, baseTheta);
+                Vector2 movedPos = CoordinateTransform.PolarToCartesian2D(originPosition, addR + baseR, baseTheta);
 
-                endPosition.x = pos3.x;
+                endPosition.x = movedPos.x;
                 endPosition.y = startPosition.y;
-                endPosition.z = pos3.y;
+                endPosition.z = movedPos.y;
 
             }
 

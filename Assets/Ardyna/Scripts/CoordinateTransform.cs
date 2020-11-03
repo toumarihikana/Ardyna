@@ -16,11 +16,11 @@ public class CoordinateTransform : MonoBehaviour
         
     }
 
-    public Vector2 PolarToCartesian2D(Vector2 origin, float r, float theta)
+    public static Vector2 PolarToCartesian2D(Vector2 origin, float r, float theta)
     {
 
-        float xMove = Mathf.Sin(theta * Mathf.Deg2Rad) * r;
-        float yMove = Mathf.Cos(theta * Mathf.Deg2Rad) * r;
+        float xMove = Mathf.Cos(theta * Mathf.Deg2Rad) * r;
+        float yMove = Mathf.Sin(theta * Mathf.Deg2Rad) * r;
 
         float xResult = xMove + origin.x;
         float yResult = yMove + origin.y;
@@ -29,7 +29,7 @@ public class CoordinateTransform : MonoBehaviour
 
     }
 
-    public Vector2 CartesianToPolar2D(Vector2 origin, float x, float y)
+    public static Vector2 CartesianToPolar2D(Vector2 origin, float x, float y)
     {
         // 平方根の計算が重かったらx/cosθに変える
         float rMove = Mathf.Sqrt(Mathf.Pow((x - origin.x), 2f) + Mathf.Pow((y - origin.y), 2f));

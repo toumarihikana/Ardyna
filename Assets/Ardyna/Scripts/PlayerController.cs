@@ -17,6 +17,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerCamera.transform.LookAt(targetObject.transform);
+        this.transform.LookAt(targetObject.transform);
     }
 }

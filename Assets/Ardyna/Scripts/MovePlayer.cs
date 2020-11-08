@@ -10,6 +10,8 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] private AnimationCurve moveSpeedCurve;
     [SerializeField] private GameObject enemyObject;
 
+    [SerializeField] private Animator playerAnimator;
+
     [SerializeField] private bool isMoveing;
 
     private Vector3 startPosition;
@@ -27,6 +29,8 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] float defaultMoveR = 3f;
     [SerializeField] float minimumR = 2f;
     [SerializeField] float maximumR = 50f;
+
+
 
     public void MoveHorizontal(Vector2 direction)
     {
@@ -53,6 +57,8 @@ public class MovePlayer : MonoBehaviour
                 endPosition.x = movedPos.x;
                 endPosition.y = startPosition.y;
                 endPosition.z = movedPos.y;
+
+                playerAnimator.SetTrigger("rightSideStep");
 
             }
             //原点を超えて前進しない様にする
@@ -83,6 +89,8 @@ public class MovePlayer : MonoBehaviour
             {
                 isMoveing = true;
             }
+            //ここでAnimatorのtriggerをセットしているが複数回呼ばれている感じがある。
+            //playerAnimator.SetTrigger("rightSideStep");
         }
 
 

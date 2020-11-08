@@ -83,9 +83,9 @@ public class MovePlayer : MonoBehaviour
             {
                 isMoveing = true;
             }
-            
-
         }
+
+
     }
 
     void Update()

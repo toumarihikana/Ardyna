@@ -1,0 +1,1129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f78c6efa51b78674bac5fa1e7f03afe6, type: 3}
+  m_Name: stand
+  m_EditorClassIdentifier: 
+  isHuman: 1
+  haveRootT: 1
+  rootT: {x: -0.0037820912, y: 0.9960365, z: -0.026826108}
+  haveRootQ: 1
+  rootQ: {x: -0.06536344, y: 0.00028994834, z: -0.00081688276, w: 0.99786115}
+  musclePropertyNames:
+  - Spine Front-Back
+  - Spine Left-Right
+  - Spine Twist Left-Right
+  - Chest Front-Back
+  - Chest Left-Right
+  - Chest Twist Left-Right
+  - UpperChest Front-Back
+  - UpperChest Left-Right
+  - UpperChest Twist Left-Right
+  - Neck Nod Down-Up
+  - Neck Tilt Left-Right
+  - Neck Turn Left-Right
+  - Head Nod Down-Up
+  - Head Tilt Left-Right
+  - Head Turn Left-Right
+  - Left Eye Down-Up
+  - Left Eye In-Out
+  - Right Eye Down-Up
+  - Right Eye In-Out
+  - Jaw Close
+  - Jaw Left-Right
+  - Left Upper Leg Front-Back
+  - Left Upper Leg In-Out
+  - Left Upper Leg Twist In-Out
+  - Left Lower Leg Stretch
+  - Left Lower Leg Twist In-Out
+  - Left Foot Up-Down
+  - Left Foot Twist In-Out
+  - Left Toes Up-Down
+  - Right Upper Leg Front-Back
+  - Right Upper Leg In-Out
+  - Right Upper Leg Twist In-Out
+  - Right Lower Leg Stretch
+  - Right Lower Leg Twist In-Out
+  - Right Foot Up-Down
+  - Right Foot Twist In-Out
+  - Right Toes Up-Down
+  - Left Shoulder Down-Up
+  - Left Shoulder Front-Back
+  - Left Arm Down-Up
+  - Left Arm Front-Back
+  - Left Arm Twist In-Out
+  - Left Forearm Stretch
+  - Left Forearm Twist In-Out
+  - Left Hand Down-Up
+  - Left Hand In-Out
+  - Right Shoulder Down-Up
+  - Right Shoulder Front-Back
+  - Right Arm Down-Up
+  - Right Arm Front-Back
+  - Right Arm Twist In-Out
+  - Right Forearm Stretch
+  - Right Forearm Twist In-Out
+  - Right Hand Down-Up
+  - Right Hand In-Out
+  - LeftHand.Thumb.1 Stretched
+  - LeftHand.Thumb.Spread
+  - LeftHand.Thumb.2 Stretched
+  - LeftHand.Thumb.3 Stretched
+  - LeftHand.Index.1 Stretched
+  - LeftHand.Index.Spread
+  - LeftHand.Index.2 Stretched
+  - LeftHand.Index.3 Stretched
+  - LeftHand.Middle.1 Stretched
+  - LeftHand.Middle.Spread
+  - LeftHand.Middle.2 Stretched
+  - LeftHand.Middle.3 Stretched
+  - LeftHand.Ring.1 Stretched
+  - LeftHand.Ring.Spread
+  - LeftHand.Ring.2 Stretched
+  - LeftHand.Ring.3 Stretched
+  - LeftHand.Little.1 Stretched
+  - LeftHand.Little.Spread
+  - LeftHand.Little.2 Stretched
+  - LeftHand.Little.3 Stretched
+  - RightHand.Thumb.1 Stretched
+  - RightHand.Thumb.Spread
+  - RightHand.Thumb.2 Stretched
+  - RightHand.Thumb.3 Stretched
+  - RightHand.Index.1 Stretched
+  - RightHand.Index.Spread
+  - RightHand.Index.2 Stretched
+  - RightHand.Index.3 Stretched
+  - RightHand.Middle.1 Stretched
+  - RightHand.Middle.Spread
+  - RightHand.Middle.2 Stretched
+  - RightHand.Middle.3 Stretched
+  - RightHand.Ring.1 Stretched
+  - RightHand.Ring.Spread
+  - RightHand.Ring.2 Stretched
+  - RightHand.Ring.3 Stretched
+  - RightHand.Little.1 Stretched
+  - RightHand.Little.Spread
+  - RightHand.Little.2 Stretched
+  - RightHand.Little.3 Stretched
+  muscleValues:
+  - 0.07402987
+  - 0.00000016076245
+  - 0
+  - 0.07863238
+  - -0.0000006430498
+  - 0.00000012057184
+  - 0.14806005
+  - 9.222856e-14
+  - 0.0000005976415
+  - -0.028139543
+  - -0.004137692
+  - -0.0045995493
+  - -0.027367614
+  - -0.0029853387
+  - -0.00480603
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.6682139
+  - 0.15865831
+  - 0.36950943
+  - 0.98245317
+  - -0.23866996
+  - -0.112903416
+  - -0.24070756
+  - 0.21962209
+  - 0.6760416
+  - -0.025106259
+  - 0.3719209
+  - 0.9759197
+  - -0.2184695
+  - -0.113401175
+  - -0.02430272
+  - 0.19143544
+  - 1
+  - 0.015872465
+  - -0.8532829
+  - 0.27388838
+  - -0.79677933
+  - 0.48969808
+  - 0.9395628
+  - 0.41750512
+  - 0.10388591
+  - 1
+  - 0.015872465
+  - -1.0926181
+  - 0.21251671
+  - -0.47092912
+  - 0.8842784
+  - 0.81642807
+  - 0.0016575519
+  - 0.07553321
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.5151515
+  - 0.48500577
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.47074088
+  tdofIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
+  tdofValues:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  ikIndices: 00000000010000000200000003000000
+  ikValues:
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: -0.16427986, y: -0.9686866, z: -0.12291592}
+    rotation: {x: -0.45933083, y: 0.5184174, z: -0.49959987, w: 0.52024853}
+  - position: {x: 0.04395305, y: -0.9704508, z: -0.1363268}
+    rotation: {x: -0.47528177, y: 0.53963214, z: -0.47234586, w: 0.50969964}
+  transformPaths:
+  - 
+  - Face
+  - Body
+  - Root
+  - Root/J_Bip_C_Hips
+  - Root/J_Bip_C_Hips/J_Sec_L_SkirtSide0
+  - Root/J_Bip_C_Hips/J_Sec_L_SkirtSide0/J_Sec_L_SkirtSide1
+  - Root/J_Bip_C_Hips/J_Sec_L_SkirtSide0/J_Sec_L_SkirtSide1/J_Sec_L_SkirtSide2
+  - Root/J_Bip_C_Hips/J_Sec_L_SkirtSide0/J_Sec_L_SkirtSide1/J_Sec_L_SkirtSide2/J_Sec_L_SkirtSide2_end
+  - Root/J_Bip_C_Hips/J_Sec_R_SkirtSide0
+  - Root/J_Bip_C_Hips/J_Sec_R_SkirtSide0/J_Sec_R_SkirtSide1
+  - Root/J_Bip_C_Hips/J_Sec_R_SkirtSide0/J_Sec_R_SkirtSide1/J_Sec_R_SkirtSide2
+  - Root/J_Bip_C_Hips/J_Sec_R_SkirtSide0/J_Sec_R_SkirtSide1/J_Sec_R_SkirtSide2/J_Sec_R_SkirtSide2_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_L_Bust1/J_Sec_L_Bust2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Sec_R_Bust1/J_Sec_R_Bust2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_L_FaceEye
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/J_Adj_R_FaceEye
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-08fae615-d5de-4063-9a04-16d82f259b81
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-08fae615-d5de-4063-9a04-16d82f259b81/HairJoint-76ec2cdc-d4d8-4654-a5b8-b77cfcc89e7f
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-08fae615-d5de-4063-9a04-16d82f259b81/HairJoint-76ec2cdc-d4d8-4654-a5b8-b77cfcc89e7f/HairJoint-dc444ed0-807a-4fae-b93e-bd9cdf27d629
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-08fae615-d5de-4063-9a04-16d82f259b81/HairJoint-76ec2cdc-d4d8-4654-a5b8-b77cfcc89e7f/HairJoint-dc444ed0-807a-4fae-b93e-bd9cdf27d629/HairJoint-236227b0-2126-4d9d-804f-de1cb6e6603a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-08fae615-d5de-4063-9a04-16d82f259b81/HairJoint-76ec2cdc-d4d8-4654-a5b8-b77cfcc89e7f/HairJoint-dc444ed0-807a-4fae-b93e-bd9cdf27d629/HairJoint-236227b0-2126-4d9d-804f-de1cb6e6603a/HairJoint-5dfb9150-aba9-4e03-b25b-8e4f01377f1e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-12c294cd-fa16-4445-82c4-248821d8091d
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-12c294cd-fa16-4445-82c4-248821d8091d/HairJoint-4867669d-e74c-4c57-9af6-03b27a9f877f
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-12c294cd-fa16-4445-82c4-248821d8091d/HairJoint-4867669d-e74c-4c57-9af6-03b27a9f877f/HairJoint-03f929aa-15d8-4801-9d24-5345bc38db03
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-12c294cd-fa16-4445-82c4-248821d8091d/HairJoint-4867669d-e74c-4c57-9af6-03b27a9f877f/HairJoint-03f929aa-15d8-4801-9d24-5345bc38db03/HairJoint-535aeb33-fdb7-408a-852a-5f159d270aaa
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-12c294cd-fa16-4445-82c4-248821d8091d/HairJoint-4867669d-e74c-4c57-9af6-03b27a9f877f/HairJoint-03f929aa-15d8-4801-9d24-5345bc38db03/HairJoint-535aeb33-fdb7-408a-852a-5f159d270aaa/HairJoint-e7ddadcc-dd22-49eb-9afe-2e6c8692d04a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3b2edec2-3928-46e2-9676-cb3623b75c96
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3b2edec2-3928-46e2-9676-cb3623b75c96/HairJoint-fa70f52f-64e0-4ff1-b464-68bc950bcc88
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3b2edec2-3928-46e2-9676-cb3623b75c96/HairJoint-fa70f52f-64e0-4ff1-b464-68bc950bcc88/HairJoint-ce821d4f-7ea4-4d89-803f-8f056b8c38dd
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3b2edec2-3928-46e2-9676-cb3623b75c96/HairJoint-fa70f52f-64e0-4ff1-b464-68bc950bcc88/HairJoint-ce821d4f-7ea4-4d89-803f-8f056b8c38dd/HairJoint-e48519b6-a09f-4a36-92f5-d2a187e054d7
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-3b2edec2-3928-46e2-9676-cb3623b75c96/HairJoint-fa70f52f-64e0-4ff1-b464-68bc950bcc88/HairJoint-ce821d4f-7ea4-4d89-803f-8f056b8c38dd/HairJoint-e48519b6-a09f-4a36-92f5-d2a187e054d7/HairJoint-a97a1b9b-49d7-49dc-91c6-d62af9ebc412
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-cf8a1935-7223-48f1-8b14-e48206602c13
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-cf8a1935-7223-48f1-8b14-e48206602c13/HairJoint-8607bc04-cc83-45c8-932f-db4228e4d8f8
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-cf8a1935-7223-48f1-8b14-e48206602c13/HairJoint-8607bc04-cc83-45c8-932f-db4228e4d8f8/HairJoint-baeaf3eb-feac-4577-b164-6e825a3d18c6
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-cf8a1935-7223-48f1-8b14-e48206602c13/HairJoint-8607bc04-cc83-45c8-932f-db4228e4d8f8/HairJoint-baeaf3eb-feac-4577-b164-6e825a3d18c6/HairJoint-c8a8732e-65ae-4282-a0e8-49a51d3a2d94
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-cf8a1935-7223-48f1-8b14-e48206602c13/HairJoint-8607bc04-cc83-45c8-932f-db4228e4d8f8/HairJoint-baeaf3eb-feac-4577-b164-6e825a3d18c6/HairJoint-c8a8732e-65ae-4282-a0e8-49a51d3a2d94/HairJoint-5ad6f90e-3131-4236-aacb-3cf490d578d6
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-96784dc5-b324-4960-be30-29b3693ba100
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-96784dc5-b324-4960-be30-29b3693ba100/HairJoint-1e460e09-f691-4caf-a96b-63b478f45e9f
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-96784dc5-b324-4960-be30-29b3693ba100/HairJoint-1e460e09-f691-4caf-a96b-63b478f45e9f/HairJoint-363db52c-0a41-48c5-bad6-bec390fd9765
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-96784dc5-b324-4960-be30-29b3693ba100/HairJoint-1e460e09-f691-4caf-a96b-63b478f45e9f/HairJoint-363db52c-0a41-48c5-bad6-bec390fd9765/HairJoint-a42e8586-7ed6-4030-b5c2-927f272d3ba5
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-96784dc5-b324-4960-be30-29b3693ba100/HairJoint-1e460e09-f691-4caf-a96b-63b478f45e9f/HairJoint-363db52c-0a41-48c5-bad6-bec390fd9765/HairJoint-a42e8586-7ed6-4030-b5c2-927f272d3ba5/HairJoint-4c2bf0d4-7617-4eb6-92f9-61cf57d57056
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d1cfd56e-8b31-4d5f-a322-cb3c5868b063
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d1cfd56e-8b31-4d5f-a322-cb3c5868b063/HairJoint-0591544c-3b0f-4575-a678-87df40c6f46b
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d1cfd56e-8b31-4d5f-a322-cb3c5868b063/HairJoint-0591544c-3b0f-4575-a678-87df40c6f46b/HairJoint-de73e694-b7cf-45d7-9c84-90adaaa014ca
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d1cfd56e-8b31-4d5f-a322-cb3c5868b063/HairJoint-0591544c-3b0f-4575-a678-87df40c6f46b/HairJoint-de73e694-b7cf-45d7-9c84-90adaaa014ca/HairJoint-9a0fb9eb-e54d-4ae1-8635-3acb93e1ff7e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-d1cfd56e-8b31-4d5f-a322-cb3c5868b063/HairJoint-0591544c-3b0f-4575-a678-87df40c6f46b/HairJoint-de73e694-b7cf-45d7-9c84-90adaaa014ca/HairJoint-9a0fb9eb-e54d-4ae1-8635-3acb93e1ff7e/HairJoint-3bc0fa50-f85a-457c-aecd-7db99d9c5401
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-693a5654-05c0-4433-ba59-e85aa50ab05a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-693a5654-05c0-4433-ba59-e85aa50ab05a/HairJoint-6e437aed-130a-4817-a1da-f265dc15c28f
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-693a5654-05c0-4433-ba59-e85aa50ab05a/HairJoint-6e437aed-130a-4817-a1da-f265dc15c28f/HairJoint-3c915013-cec6-4a35-9b7f-cca7186e4485
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-693a5654-05c0-4433-ba59-e85aa50ab05a/HairJoint-6e437aed-130a-4817-a1da-f265dc15c28f/HairJoint-3c915013-cec6-4a35-9b7f-cca7186e4485/HairJoint-8a85579f-d068-4b7f-b6d3-b75f384176f6
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-693a5654-05c0-4433-ba59-e85aa50ab05a/HairJoint-6e437aed-130a-4817-a1da-f265dc15c28f/HairJoint-3c915013-cec6-4a35-9b7f-cca7186e4485/HairJoint-8a85579f-d068-4b7f-b6d3-b75f384176f6/HairJoint-067d4133-ece3-429d-a6b7-d2f1553c7010
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7bdec919-593d-4106-a74b-c1a49c5552c1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7bdec919-593d-4106-a74b-c1a49c5552c1/HairJoint-47900ff2-96a9-4d27-b644-b6c211a6274e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7bdec919-593d-4106-a74b-c1a49c5552c1/HairJoint-47900ff2-96a9-4d27-b644-b6c211a6274e/HairJoint-d92d442c-dd12-455a-9daf-b8b10e092a4e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7bdec919-593d-4106-a74b-c1a49c5552c1/HairJoint-47900ff2-96a9-4d27-b644-b6c211a6274e/HairJoint-d92d442c-dd12-455a-9daf-b8b10e092a4e/HairJoint-1f9487ab-8966-4cbe-940d-473ca075fc7e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-7bdec919-593d-4106-a74b-c1a49c5552c1/HairJoint-47900ff2-96a9-4d27-b644-b6c211a6274e/HairJoint-d92d442c-dd12-455a-9daf-b8b10e092a4e/HairJoint-1f9487ab-8966-4cbe-940d-473ca075fc7e/HairJoint-c54ea404-03fa-431d-862b-c852fee37bab
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c077fbde-d76b-4e58-89cb-88ac88c4de76
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c077fbde-d76b-4e58-89cb-88ac88c4de76/HairJoint-22385f71-2f6f-4037-8610-c03836dd1bca
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c077fbde-d76b-4e58-89cb-88ac88c4de76/HairJoint-22385f71-2f6f-4037-8610-c03836dd1bca/HairJoint-fee34e04-85bf-48a5-98ae-a5485d3e9318
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c077fbde-d76b-4e58-89cb-88ac88c4de76/HairJoint-22385f71-2f6f-4037-8610-c03836dd1bca/HairJoint-fee34e04-85bf-48a5-98ae-a5485d3e9318/HairJoint-a349a82c-ee33-49c5-8f06-f919ed42c103
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-c077fbde-d76b-4e58-89cb-88ac88c4de76/HairJoint-22385f71-2f6f-4037-8610-c03836dd1bca/HairJoint-fee34e04-85bf-48a5-98ae-a5485d3e9318/HairJoint-a349a82c-ee33-49c5-8f06-f919ed42c103/HairJoint-105c99d2-4e8b-4ac6-8457-34f5e85056f4
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-eeb9a0a1-0a5d-42d6-b461-1dbbd4496926
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-eeb9a0a1-0a5d-42d6-b461-1dbbd4496926/HairJoint-31870b91-cca3-4fcf-b0cd-c89804f1a8bb
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-eeb9a0a1-0a5d-42d6-b461-1dbbd4496926/HairJoint-31870b91-cca3-4fcf-b0cd-c89804f1a8bb/HairJoint-446a8464-8d39-41d9-9982-e1b0fb65967e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-eeb9a0a1-0a5d-42d6-b461-1dbbd4496926/HairJoint-31870b91-cca3-4fcf-b0cd-c89804f1a8bb/HairJoint-446a8464-8d39-41d9-9982-e1b0fb65967e/HairJoint-f95a6c62-e359-4490-b2b5-10c70e79ef2b
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-eeb9a0a1-0a5d-42d6-b461-1dbbd4496926/HairJoint-31870b91-cca3-4fcf-b0cd-c89804f1a8bb/HairJoint-446a8464-8d39-41d9-9982-e1b0fb65967e/HairJoint-f95a6c62-e359-4490-b2b5-10c70e79ef2b/HairJoint-222a4f65-7b49-4aad-b1b8-b28d066a61d9
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e06766e3-9c51-4975-8182-dac8a866e17e
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e06766e3-9c51-4975-8182-dac8a866e17e/HairJoint-877aba87-8e99-437f-9446-0b11ee25b9a5
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e06766e3-9c51-4975-8182-dac8a866e17e/HairJoint-877aba87-8e99-437f-9446-0b11ee25b9a5/HairJoint-9a0a8e31-965d-435a-b924-6d6cae6be647
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e06766e3-9c51-4975-8182-dac8a866e17e/HairJoint-877aba87-8e99-437f-9446-0b11ee25b9a5/HairJoint-9a0a8e31-965d-435a-b924-6d6cae6be647/HairJoint-39dd1413-68c7-4e76-94b9-81fd94e673ee
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e06766e3-9c51-4975-8182-dac8a866e17e/HairJoint-877aba87-8e99-437f-9446-0b11ee25b9a5/HairJoint-9a0a8e31-965d-435a-b924-6d6cae6be647/HairJoint-39dd1413-68c7-4e76-94b9-81fd94e673ee/HairJoint-4d015347-dd39-422b-8774-ee1185c013f1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e4527e29-ed16-42f6-87c0-0ddd05d9c893
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e4527e29-ed16-42f6-87c0-0ddd05d9c893/HairJoint-4e8ca700-f085-46db-b4a3-a4eb4a525063
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e4527e29-ed16-42f6-87c0-0ddd05d9c893/HairJoint-4e8ca700-f085-46db-b4a3-a4eb4a525063/HairJoint-af4b323f-6d46-4fb1-a0c8-505cbc79574f
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e4527e29-ed16-42f6-87c0-0ddd05d9c893/HairJoint-4e8ca700-f085-46db-b4a3-a4eb4a525063/HairJoint-af4b323f-6d46-4fb1-a0c8-505cbc79574f/HairJoint-e66f6a84-f007-4274-a761-1611934199b8
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-e4527e29-ed16-42f6-87c0-0ddd05d9c893/HairJoint-4e8ca700-f085-46db-b4a3-a4eb4a525063/HairJoint-af4b323f-6d46-4fb1-a0c8-505cbc79574f/HairJoint-e66f6a84-f007-4274-a761-1611934199b8/HairJoint-41e89b8a-c3f5-4518-9f13-9655e0523949
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-768b5e7f-dd1c-4d4f-b9bd-ab1c47211cb4
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-768b5e7f-dd1c-4d4f-b9bd-ab1c47211cb4/HairJoint-c1138f81-94cc-4b58-8248-f95c3d2d24e2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-768b5e7f-dd1c-4d4f-b9bd-ab1c47211cb4/HairJoint-c1138f81-94cc-4b58-8248-f95c3d2d24e2/HairJoint-dc797c3f-bf0c-4807-8b2b-c8123b320990
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-768b5e7f-dd1c-4d4f-b9bd-ab1c47211cb4/HairJoint-c1138f81-94cc-4b58-8248-f95c3d2d24e2/HairJoint-dc797c3f-bf0c-4807-8b2b-c8123b320990/HairJoint-c6ef8931-9bcf-459e-83c5-32de3b821942
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-768b5e7f-dd1c-4d4f-b9bd-ab1c47211cb4/HairJoint-c1138f81-94cc-4b58-8248-f95c3d2d24e2/HairJoint-dc797c3f-bf0c-4807-8b2b-c8123b320990/HairJoint-c6ef8931-9bcf-459e-83c5-32de3b821942/HairJoint-e5bf3375-a8ed-4f8b-bcbc-2015d158fbb4
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a80378f0-3be6-4f0a-845c-bb70758ef95a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a80378f0-3be6-4f0a-845c-bb70758ef95a/HairJoint-13a5d369-0ec4-43dd-9a0a-8dd471473715
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a80378f0-3be6-4f0a-845c-bb70758ef95a/HairJoint-13a5d369-0ec4-43dd-9a0a-8dd471473715/HairJoint-38785f20-542d-44f2-b555-18af473ea533
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a80378f0-3be6-4f0a-845c-bb70758ef95a/HairJoint-13a5d369-0ec4-43dd-9a0a-8dd471473715/HairJoint-38785f20-542d-44f2-b555-18af473ea533/HairJoint-be384f39-c948-4158-87fe-ba7c8eb0a7c4
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-a80378f0-3be6-4f0a-845c-bb70758ef95a/HairJoint-13a5d369-0ec4-43dd-9a0a-8dd471473715/HairJoint-38785f20-542d-44f2-b555-18af473ea533/HairJoint-be384f39-c948-4158-87fe-ba7c8eb0a7c4/HairJoint-3ead1722-fad5-4226-b188-df5e2622c6c1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-dde599f3-1d7f-415b-bc32-03a18472c158
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-dde599f3-1d7f-415b-bc32-03a18472c158/HairJoint-4de7a24f-27df-46e7-bf5e-9d9afe65558c
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-dde599f3-1d7f-415b-bc32-03a18472c158/HairJoint-4de7a24f-27df-46e7-bf5e-9d9afe65558c/HairJoint-bb0daf7a-fbba-4c98-9780-53e80434c168
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-dde599f3-1d7f-415b-bc32-03a18472c158/HairJoint-4de7a24f-27df-46e7-bf5e-9d9afe65558c/HairJoint-bb0daf7a-fbba-4c98-9780-53e80434c168/HairJoint-441d1da3-b39a-4094-8264-955e528c992a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-dde599f3-1d7f-415b-bc32-03a18472c158/HairJoint-4de7a24f-27df-46e7-bf5e-9d9afe65558c/HairJoint-bb0daf7a-fbba-4c98-9780-53e80434c168/HairJoint-441d1da3-b39a-4094-8264-955e528c992a/HairJoint-4c9224ad-cd18-4b02-84eb-0b8fd2908517
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-4f2fa5a6-7f85-4b57-8df8-73d4cb68c2d5
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-4f2fa5a6-7f85-4b57-8df8-73d4cb68c2d5/HairJoint-c535f487-c661-46b5-8e82-bd13aa0f9415
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-4f2fa5a6-7f85-4b57-8df8-73d4cb68c2d5/HairJoint-c535f487-c661-46b5-8e82-bd13aa0f9415/HairJoint-afe9163c-cf08-4e75-81ce-d0e7dcc6cc7a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-4f2fa5a6-7f85-4b57-8df8-73d4cb68c2d5/HairJoint-c535f487-c661-46b5-8e82-bd13aa0f9415/HairJoint-afe9163c-cf08-4e75-81ce-d0e7dcc6cc7a/HairJoint-a04261c0-cf4e-451e-9cda-149ac3511f90
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-4f2fa5a6-7f85-4b57-8df8-73d4cb68c2d5/HairJoint-c535f487-c661-46b5-8e82-bd13aa0f9415/HairJoint-afe9163c-cf08-4e75-81ce-d0e7dcc6cc7a/HairJoint-a04261c0-cf4e-451e-9cda-149ac3511f90/HairJoint-e15012a5-819d-4aff-8f3d-ce8a40aa9a69
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-fc8488bf-7042-49b1-adba-2a7e4e2e4cd5
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-fc8488bf-7042-49b1-adba-2a7e4e2e4cd5/HairJoint-32a8a9bb-48ed-405f-be77-63ce79f0922a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-fc8488bf-7042-49b1-adba-2a7e4e2e4cd5/HairJoint-32a8a9bb-48ed-405f-be77-63ce79f0922a/HairJoint-37ff6f9a-02c0-4c17-adc6-e64e9faddbbb
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-fc8488bf-7042-49b1-adba-2a7e4e2e4cd5/HairJoint-32a8a9bb-48ed-405f-be77-63ce79f0922a/HairJoint-37ff6f9a-02c0-4c17-adc6-e64e9faddbbb/HairJoint-363e954d-cb74-479d-8039-b5357f6e6e4c
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-fc8488bf-7042-49b1-adba-2a7e4e2e4cd5/HairJoint-32a8a9bb-48ed-405f-be77-63ce79f0922a/HairJoint-37ff6f9a-02c0-4c17-adc6-e64e9faddbbb/HairJoint-363e954d-cb74-479d-8039-b5357f6e6e4c/HairJoint-4aa5667e-d0e3-4503-9452-4ea78e2f539a
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bf39083d-2c69-4451-8cc4-f2d19011a304
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bf39083d-2c69-4451-8cc4-f2d19011a304/HairJoint-95a969b4-6050-4904-acb4-9cd4117cada3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bf39083d-2c69-4451-8cc4-f2d19011a304/HairJoint-95a969b4-6050-4904-acb4-9cd4117cada3/HairJoint-f6c683db-7ade-49a2-905d-f58bf2f5961f
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bf39083d-2c69-4451-8cc4-f2d19011a304/HairJoint-95a969b4-6050-4904-acb4-9cd4117cada3/HairJoint-f6c683db-7ade-49a2-905d-f58bf2f5961f/HairJoint-d28f81ad-43dd-42d7-bb94-8cd2785e8280
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_C_Neck/J_Bip_C_Head/HairJoint-bf39083d-2c69-4451-8cc4-f2d19011a304/HairJoint-95a969b4-6050-4904-acb4-9cd4117cada3/HairJoint-f6c683db-7ade-49a2-905d-f58bf2f5961f/HairJoint-d28f81ad-43dd-42d7-bb94-8cd2785e8280/HairJoint-c9704649-6940-449e-9200-c4f4915a86b8
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Sec_L_LowerSleeve
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Sec_L_LowerSleeve/J_Sec_L_LowerSleeve_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2/J_Bip_L_Index3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Index1/J_Bip_L_Index2/J_Bip_L_Index3/J_Bip_L_Index3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2/J_Bip_L_Little3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Little1/J_Bip_L_Little2/J_Bip_L_Little3/J_Bip_L_Little3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2/J_Bip_L_Middle3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Middle1/J_Bip_L_Middle2/J_Bip_L_Middle3/J_Bip_L_Middle3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2/J_Bip_L_Ring3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Ring1/J_Bip_L_Ring2/J_Bip_L_Ring3/J_Bip_L_Ring3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Bip_L_Thumb1/J_Bip_L_Thumb2/J_Bip_L_Thumb3/J_Bip_L_Thumb3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Sec_L_TipSleeve
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_L_Shoulder/J_Bip_L_UpperArm/J_Bip_L_LowerArm/J_Bip_L_Hand/J_Sec_L_TipSleeve/J_Sec_L_TipSleeve_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Sec_R_LowerSleeve
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Sec_R_LowerSleeve/J_Sec_R_LowerSleeve_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2/J_Bip_R_Index3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Index1/J_Bip_R_Index2/J_Bip_R_Index3/J_Bip_R_Index3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2/J_Bip_R_Little3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Little1/J_Bip_R_Little2/J_Bip_R_Little3/J_Bip_R_Little3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Middle1/J_Bip_R_Middle2/J_Bip_R_Middle3/J_Bip_R_Middle3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2/J_Bip_R_Ring3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Ring1/J_Bip_R_Ring2/J_Bip_R_Ring3/J_Bip_R_Ring3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2/J_Bip_R_Thumb3
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Bip_R_Thumb1/J_Bip_R_Thumb2/J_Bip_R_Thumb3/J_Bip_R_Thumb3_end
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Sec_R_TipSleeve
+  - Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand/J_Sec_R_TipSleeve/J_Sec_R_TipSleeve_end
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack0
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack0/J_Sec_L_SkirtBack1
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack0/J_Sec_L_SkirtBack1/J_Sec_L_SkirtBack2
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtBack0/J_Sec_L_SkirtBack1/J_Sec_L_SkirtBack2/J_Sec_L_SkirtBack2_end
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront0
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront0/J_Sec_L_SkirtFront1
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront0/J_Sec_L_SkirtFront1/J_Sec_L_SkirtFront2
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Sec_L_SkirtFront0/J_Sec_L_SkirtFront1/J_Sec_L_SkirtFront2/J_Sec_L_SkirtFront2_end
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot/J_Bip_L_ToeBase
+  - Root/J_Bip_C_Hips/J_Bip_L_UpperLeg/J_Bip_L_LowerLeg/J_Bip_L_Foot/J_Bip_L_ToeBase/J_Bip_L_ToeBase_end
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack0
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack0/J_Sec_R_SkirtBack1
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack0/J_Sec_R_SkirtBack1/J_Sec_R_SkirtBack2
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtBack0/J_Sec_R_SkirtBack1/J_Sec_R_SkirtBack2/J_Sec_R_SkirtBack2_end
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront0
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront0/J_Sec_R_SkirtFront1
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront0/J_Sec_R_SkirtFront1/J_Sec_R_SkirtFront2
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Sec_R_SkirtFront0/J_Sec_R_SkirtFront1/J_Sec_R_SkirtFront2/J_Sec_R_SkirtFront2_end
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot/J_Bip_R_ToeBase
+  - Root/J_Bip_C_Hips/J_Bip_R_UpperLeg/J_Bip_R_LowerLeg/J_Bip_R_Foot/J_Bip_R_ToeBase/J_Bip_R_ToeBase_end
+  - Hairs
+  - Hairs/Hair001
+  - secondary
+  transformValues:
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: -0}
+    rotation: {x: -0, y: -0, z: 0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: -0}
+    rotation: {x: -0, y: -0, z: 0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.009865511, y: 0.95634, z: 0.026918411}
+    rotation: {x: -0.023110205, y: -0.000035451965, z: -0.0008352455, w: 0.9997326}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.1915102, y: -0.01782769, z: 0.007963166}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.05927521, y: -0.1287716, z: -0.015876781}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.04900801, y: -0.12336475, z: -0.014244357}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.19150999, y: -0.017827868, z: 0.007963125}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.05927509, y: -0.128771, z: -0.015876759}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.049007952, y: -0.123364925, z: -0.014244355}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.000000007479684, y: 0.052913785, z: 0.009824619}
+    rotation: {x: -0.025838487, y: -0, z: -0, w: 0.9996662}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.000000016443664, y: 0.113987744, z: 0.014169309}
+    rotation: {x: -0.027444372, y: 0.000000029802317, z: 0.00000023841854, w: 0.99962336}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.000000010826625, y: 0.12410295, z: -0.013643019}
+    rotation: {x: -0.025838487, y: 0.000000119209254, z: -0.000000029802314, w: 0.9996662}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.053541005, y: -0.027212381, z: 0.059070606}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.026951998, y: 0.0058699846, z: 0.05357938}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.053540997, y: -0.0272125, z: 0.05907059}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.026952006, y: 0.0058699846, z: 0.05357941}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0000000096915755, y: 0.1146152, z: -0.03339565}
+    rotation: {x: 0.00982472, y: -0.001774877, z: 0.0012115088, w: 0.9999495}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.00000002986053, y: 0.07220948, z: 0.009306982}
+    rotation: {x: 0.009554684, y: -0.001677528, z: 0.0010259897, w: 0.9999525}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.019798884, y: 0.06570256, z: 0.029167049}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01979881, y: 0.06570256, z: 0.029167078}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.033511214, y: 0.16465986, z: 0.09755276}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01335614, y: -0.026386976, z: 0.013987213}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.022225512, y: -0.02379322, z: 0.003540635}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.02461146, y: -0.021187544, z: -0.0050339997}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.023866845, y: -0.019560337, z: -0.01146321}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.00867239, y: 0.15026891, z: 0.109773606}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.03321119, y: -0.03707862, z: -0.0052454323}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0318014, y: -0.03041172, z: -0.025680639}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.029267505, y: -0.031913042, z: -0.026342206}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.02999999, y: -0.037738323, z: -0.016869329}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.04004535, y: 0.16214406, z: 0.09557046}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.027123503, y: -0.037862062, z: -0.009248234}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.021117568, y: -0.031924963, z: -0.02783101}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01772917, y: -0.027806997, z: -0.03463637}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.018375732, y: -0.028039932, z: -0.03413035}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.08090432, y: 0.13917148, z: 0.07151976}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.013178095, y: -0.034473896, z: -0.024277493}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.012032345, y: -0.030794144, z: -0.030333683}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.012149528, y: -0.02943921, z: -0.031607114}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.010553002, y: -0.027653217, z: -0.03374272}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.055315446, y: 0.15791833, z: 0.08254401}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.022224013, y: -0.062758446, z: -0.003466323}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.011043347, y: -0.05913663, z: -0.028832894}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.017053887, y: -0.05330026, z: -0.036723558}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.049187638, y: -0.042343616, z: 0.005829513}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.08427186, y: 0.14578784, z: 0.06522838}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.012312628, y: -0.048463106, z: -0.00567843}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.006687954, y: -0.049580812, z: -0.0063723065}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0023892224, y: -0.04754758, z: -0.015990224}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.027802907, y: -0.037683725, z: -0.015602291}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.10808341, y: 0.12792897, z: 0.03683859}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.00002527237, y: -0.035713553, z: 0.0021798164}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.007162027, y: -0.03484273, z: -0.005150959}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0040637106, y: -0.033718824, z: -0.011515804}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0033025667, y: -0.031292796, z: -0.017438702}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.11278694, y: 0.13506329, z: 0.019482367}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0002442971, y: -0.050286055, z: 0.0007476583}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0117548555, y: -0.048027754, z: -0.00937105}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.001919739, y: -0.042708397, z: -0.026794456}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0003907159, y: -0.03910613, z: -0.032389723}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.10639768, y: 0.13623369, z: -0.035430286}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0033394098, y: -0.06682587, z: 0.0023970306}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0046410784, y: -0.06602597, z: 0.009923663}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.025090367, y: -0.060094595, z: 0.0027968064}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.035536468, y: -0.056166887, z: -0.0065735616}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.021280546, y: 0.033580422, z: -0.08598919}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0015128665, y: -0.084811926, z: -0.008788973}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0035782475, y: -0.08500314, z: 0.00863035}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0054342197, y: -0.08407605, z: 0.015023008}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.004949401, y: -0.08437312, z: 0.013350751}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.079780295, y: 0.05190265, z: -0.06982696}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.016224056, y: -0.064733505, z: -0.0053513497}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.010720976, y: -0.06608415, z: 0.0035429448}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.008479886, y: -0.06616402, z: 0.0070223063}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.009169407, y: -0.066167355, z: 0.005960282}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0972742, y: 0.078743696, z: -0.07060321}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01436843, y: -0.05752039, z: 0.0016128421}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.010421708, y: -0.058051705, z: 0.0068310015}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.009304166, y: -0.05806899, z: 0.008262455}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.010469511, y: -0.058053493, z: 0.006770596}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.10821703, y: 0.09458768, z: -0.036148135}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.01764685, y: -0.05195546, z: -0.002842456}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.01206629, y: -0.05365634, z: -0.00059880316}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.010314152, y: -0.05403745, z: 0.00009427965}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.011595592, y: -0.053768396, z: -0.0004118681}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.11163866, y: 0.09831393, z: -0.033637527}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.000017412007, y: -0.0553658, z: 0.0046332628}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.007341534, y: -0.05430317, z: 0.009366918}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01777336, y: -0.051621914, z: -0.0006951466}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.023706317, y: -0.04990244, z: -0.005509924}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.098933585, y: 0.1284622, z: 0.043918326}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0019232184, y: -0.055835962, z: -0.010912687}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0014597923, y: -0.05472696, z: -0.01516372}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.03228546, y: -0.045104146, z: -0.011810623}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.025175288, y: -0.043137312, z: -0.02756922}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.10909145, y: 0.13084543, z: -0.0067316443}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0028276518, y: -0.05867505, z: -0.010691062}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.00545606, y: -0.058633327, z: -0.006325111}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.011922188, y: -0.05660069, z: -0.013927836}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0026914924, y: -0.05626118, z: -0.019401148}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.10742867, y: 0.13430965, z: 0.014769852}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0019798204, y: -0.04277587, z: -0.009686291}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.006745249, y: -0.04312253, z: -0.004530214}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0047931448, y: -0.042032957, z: -0.008558236}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01989986, y: -0.03709531, z: -0.011429973}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.07525652, y: 0.030395031, z: -0.08919816}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.007373452, y: -0.07619023, z: 0.001342833}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0027660131, y: -0.07611382, z: 0.008605599}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.001587443, y: -0.07593095, z: 0.010435507}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.002914071, y: -0.07613301, z: 0.008374985}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.022385633, y: 0.08726382, z: -0.027442832}
+    rotation: {x: -0.015253356, y: -0.0046647144, z: -0.2583344, w: 0.96592396}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0862947, y: -0.014869213, z: 0.0053637624}
+    rotation: {x: 0.38750932, y: 0.24094988, z: 0.6340154, w: 0.6243431}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.21900654, y: -0.01019752, z: 0.0018373355}
+    rotation: {x: -0.038261574, y: 0.2753395, z: 0.24749559, w: 0.9281542}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.1062606, y: -0.020109415, z: 0.010775723}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.005583942, y: -0.07766056, z: -0.0011348873}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.21357405, y: -0.00046563148, z: 0.017629743}
+    rotation: {x: -0.36476892, y: -0.13676156, z: -0.22607195, w: 0.89282215}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.06390566, y: 0.0055621862, z: 0.02144238}
+    rotation: {x: -0.07500716, y: 0.14770864, z: 0.071398884, w: 0.9835946}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.032820582, y: -0.00013422966, z: 0.0051488876}
+    rotation: {x: -0.021220403, y: -0.0077914475, z: 0.117396526, w: 0.99282783}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.02031362, y: -0.0006734133, z: 0.0023013316}
+    rotation: {x: -0.021220407, y: -0.007791449, z: 0.117396526, w: 0.99282783}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.024109304, y: -0.00090944767, z: 0.0022355467}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.06326133, y: 0.00312531, z: -0.026793562}
+    rotation: {x: 0.04262539, y: -0.15762989, z: 0.06622667, w: 0.9843525}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.031398177, y: -0.0002734661, z: 0.000022128224}
+    rotation: {x: 0.010063077, y: 0.0029063846, z: 0.116444506, w: 0.993142}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.018059194, y: 0.0006790161, z: -0.00094339997}
+    rotation: {x: 0.009481566, y: 0.0027384358, z: 0.12817919, w: 0.991702}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.019364, y: 0.0011148453, z: -0.0005335212}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.066111684, y: 0.008372784, z: 0.004779812}
+    rotation: {x: -0.032972857, y: 0.063665524, z: 0.06761604, w: 0.9951319}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.03690082, y: -0.0013490915, z: 0.0024379753}
+    rotation: {x: -0.0075177434, y: -0.0033969944, z: 0.116345935, w: 0.9931745}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.022682905, y: -0.0024055243, z: 0.00093734264}
+    rotation: {x: -0.0075177425, y: -0.0033969942, z: 0.116345935, w: 0.9931745}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.02496177, y: -0.001614213, z: 0.0008624941}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.06668073, y: 0.008306146, z: -0.01096119}
+    rotation: {x: 0.017390547, y: -0.068942115, z: 0.066524945, w: 0.9952482}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.034322917, y: -0.0005379915, z: 0.00017246604}
+    rotation: {x: -0.002421791, y: -0.00070527964, z: 0.11620008, w: 0.99322265}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.019796371, y: 0.0007003546, z: 0.00024870038}
+    rotation: {x: -0.0024217905, y: -0.0007052796, z: 0.11620008, w: 0.99322265}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.021352172, y: 0.00033342838, z: -0.00013577193}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0020318627, y: -0.0069117546, z: 0.017733864}
+    rotation: {x: -0.10269595, y: 0.19921532, z: 0.059371594, w: 0.97274965}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.03228712, y: -0.0027006865, z: 0.033401143}
+    rotation: {x: -0.007136366, y: -0.040255286, z: 0.004194199, w: 0.9991552}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.021323621, y: -0.0015120506, z: 0.019034639}
+    rotation: {x: -0.0071363677, y: -0.040255293, z: 0.0041942066, w: 0.9991552}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.014983654, y: -0.0008094311, z: 0.01561892}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0042122602, y: -0.015541315, z: -0.007696938}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0453192, y: -0.0053824186, z: 0.002816461}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.022385648, y: 0.08726382, z: -0.027442824}
+    rotation: {x: -0.01525327, y: 0.0046646995, z: 0.2583344, w: 0.96592396}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.086294696, y: -0.014869213, z: 0.0053637326}
+    rotation: {x: 0.29634032, y: -0.20911035, z: -0.73568666, w: 0.572032}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.21900663, y: -0.010197282, z: 0.0018371418}
+    rotation: {x: -0.13046677, y: -0.07413604, z: -0.06464428, w: 0.9865614}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.10626121, y: -0.020110488, z: 0.010775406}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0055838823, y: -0.07765961, z: -0.0011340976}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.21357408, y: -0.00046515465, z: 0.017629161}
+    rotation: {x: -0.31331933, y: 0.026066689, z: -0.033101983, w: 0.94871277}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.063905716, y: 0.0055623055, z: 0.02144222}
+    rotation: {x: 0.07287409, y: 0.14579095, z: 0.077815235, w: -0.9835544}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.032820463, y: -0.00013411045, z: 0.0051491}
+    rotation: {x: 0.020605166, y: -0.007565548, z: 0.123269044, w: -0.9921306}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.02031362, y: -0.0006734133, z: 0.0023014136}
+    rotation: {x: 0.020605164, y: -0.007565548, z: 0.123269044, w: -0.9921306}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.024109364, y: -0.00090944767, z: 0.0022357367}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.06326121, y: 0.00312531, z: -0.02679371}
+    rotation: {x: -0.041416075, y: -0.15542908, z: 0.07279086, w: -0.9842906}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.031398177, y: -0.00027287006, z: 0.000022776425}
+    rotation: {x: -0.009767674, y: 0.0028209959, z: 0.122344404, w: -0.9924357}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.018059075, y: 0.0006791353, z: -0.00094307214}
+    rotation: {x: -0.0092028165, y: 0.0026578598, z: 0.13372564, w: -0.99097216}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.019364119, y: 0.0011153221, z: -0.0005331114}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.066111505, y: 0.008372903, z: 0.004779633}
+    rotation: {x: 0.032029163, y: 0.06298997, z: 0.0741739, w: -0.9947385}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.036900878, y: -0.0013488531, z: 0.0024379008}
+    rotation: {x: 0.0072993175, y: -0.0032982049, z: 0.122248895, w: -0.99246716}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.022682965, y: -0.0024052858, z: 0.00093731284}
+    rotation: {x: 0.0072993184, y: -0.0032982049, z: 0.12224888, w: -0.99246716}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.02496183, y: -0.0016140938, z: 0.0008624643}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.06668067, y: 0.008306265, z: -0.010961361}
+    rotation: {x: -0.016896522, y: -0.068114184, z: 0.07311433, w: -0.9948514}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.034322858, y: -0.0005377531, z: 0.00017255545}
+    rotation: {x: 0.0023523283, y: -0.00068503554, z: 0.12210732, w: -0.9925139}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.01979649, y: 0.0007004738, z: 0.0002487898}
+    rotation: {x: 0.0023523283, y: -0.00068503554, z: 0.12210732, w: -0.9925139}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.021352112, y: 0.00033330917, z: -0.00013567507}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0020319223, y: -0.006911874, z: 0.017733872}
+    rotation: {x: 0.09970641, y: 0.19704893, z: 0.061255645, w: -0.97338486}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.032277107, y: -0.0026779175, z: 0.033412542}
+    rotation: {x: 0.006865827, y: -0.044869017, z: 0.004037528, w: -0.99896115}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.021319568, y: -0.0014986992, z: 0.01904048}
+    rotation: {x: 0.006865827, y: -0.044869017, z: 0.004037528, w: -0.99896115}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.014980972, y: -0.0007995367, z: 0.015621692}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.00421232, y: -0.015541434, z: -0.007696938}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.045319542, y: -0.005382538, z: 0.0028163642}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.07712239, y: -0.039953887, z: -0.0035012814}
+    rotation: {x: 0.026736615, y: -0.09966215, z: -0.08525962, w: 0.9910013}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0029200092, y: 0.034339726, z: -0.12955989}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.024301685, y: -0.123343885, z: -0.052950248}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.023502052, y: -0.12481916, z: -0.04798372}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0046894997, y: 0.005196333, z: 0.14296173}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.014584571, y: -0.124649286, z: 0.020347327}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.017581172, y: -0.15216696, z: 0.02519779}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.020266172, y: -0.35219002, z: -0.0063254014}
+    rotation: {x: 0.01698787, y: -0.014579969, z: -0.005003141, w: 0.99973685}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.010351118, y: -0.4146434, z: -0.02117443}
+    rotation: {x: -0.04537823, y: 0.09305147, z: 0.07197174, w: 0.9920193}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.001466319, y: -0.06336486, z: 0.110597566}
+    rotation: {x: 0.09568161, y: -0, z: -0, w: 0.995412}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0004082173, y: -0.0020156503, z: 0.045187287}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.07712237, y: -0.039954066, z: -0.0035012902}
+    rotation: {x: 0.03884443, y: 0.077713504, z: -0.0031162843, w: 0.99621385}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0029197559, y: 0.034339726, z: -0.12956017}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.02430141, y: -0.12334412, z: -0.052950248}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.023502246, y: -0.12481862, z: -0.047983423}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.0046890676, y: 0.005196333, z: 0.14296198}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.014584526, y: -0.12464881, z: 0.020347208}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.017580539, y: -0.15216684, z: 0.025197893}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.020266525, y: -0.35218948, z: -0.0063253175}
+    rotation: {x: 0.021663787, y: 0.02308849, z: 0.0046528713, w: 0.9994879}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: -0.010351978, y: -0.41464335, z: -0.021174714}
+    rotation: {x: -0.050866965, y: -0.08524059, z: -0.014925889, w: 0.9949492}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0014657378, y: -0.06336492, z: 0.110597596}
+    rotation: {x: 0.083432384, y: -0, z: -0, w: 0.9965135}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0.0004080385, y: -0.0020157695, z: 0.045187302}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: -0}
+    rotation: {x: -0, y: -0, z: 0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: -0, y: -0, z: -0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  - position: {x: 0, y: 0, z: -0}
+    rotation: {x: -0, y: -0, z: 0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  blendShapePaths:
+  - Face
+  blendShapeValues:
+  - names:
+    - Face.M_F00_000_00_Fcl_ALL_Angry
+    - Face.M_F00_000_00_Fcl_ALL_Fun
+    - Face.M_F00_000_00_Fcl_ALL_Joy
+    - Face.M_F00_000_00_Fcl_ALL_Sorrow
+    - Face.M_F00_000_00_Fcl_ALL_Surprised
+    - Face.M_F00_000_00_Fcl_BRW_Angry
+    - Face.M_F00_000_00_Fcl_BRW_Fun
+    - Face.M_F00_000_00_Fcl_BRW_Joy
+    - Face.M_F00_000_00_Fcl_BRW_Sorrow
+    - Face.M_F00_000_00_Fcl_BRW_Surprised
+    - Face.M_F00_000_00_Fcl_EYE_Natural
+    - Face.M_F00_000_00_Fcl_EYE_Angry
+    - Face.M_F00_000_00_Fcl_EYE_Close
+    - Face.M_F00_000_00_Fcl_EYE_Close_R
+    - Face.M_F00_000_00_Fcl_EYE_Close_L
+    - Face.M_F00_000_00_Fcl_EYE_Joy
+    - Face.M_F00_000_00_Fcl_EYE_Joy_R
+    - Face.M_F00_000_00_Fcl_EYE_Joy_L
+    - Face.M_F00_000_00_Fcl_EYE_Sorrow
+    - Face.M_F00_000_00_Fcl_EYE_Surprised
+    - Face.M_F00_000_00_Fcl_EYE_Extra
+    - Face.M_F00_000_00_Fcl_MTH_Up
+    - Face.M_F00_000_00_Fcl_MTH_Down
+    - Face.M_F00_000_00_Fcl_MTH_Angry
+    - Face.M_F00_000_00_Fcl_MTH_Neutral
+    - Face.M_F00_000_00_Fcl_MTH_Fun
+    - Face.M_F00_000_00_Fcl_MTH_Joy
+    - Face.M_F00_000_00_Fcl_MTH_Sorrow
+    - Face.M_F00_000_00_Fcl_MTH_Surprised
+    - Face.M_F00_000_00_Fcl_MTH_A
+    - Face.M_F00_000_00_Fcl_MTH_I
+    - Face.M_F00_000_00_Fcl_MTH_U
+    - Face.M_F00_000_00_Fcl_MTH_E
+    - Face.M_F00_000_00_Fcl_MTH_O
+    - Face.M_F00_000_00_Fcl_HA_Fung1
+    - Face.M_F00_000_00_Fcl_HA_Fung1_Low
+    - Face.M_F00_000_00_Fcl_HA_Fung1_Up
+    - Face.M_F00_000_00_Fcl_HA_Fung2
+    - Face.M_F00_000_00_Fcl_HA_Fung2_Low
+    - Face.M_F00_000_00_Fcl_HA_Fung2_Up
+    - EyeExtra_01.M_F00_000_00_EyeExtra_On
+    weights:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0

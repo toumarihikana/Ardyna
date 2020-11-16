@@ -5,7 +5,7 @@ using UnityEngine;
 namespace com.AmberSyndrome.Ardyna
 {
 
-    enum CharacterAnimationStateEnum
+    public enum CharacterAnimationStateEnum
     {
         Waiting,
         Moving,

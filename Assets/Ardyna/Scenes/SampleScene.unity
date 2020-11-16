@@ -5695,6 +5695,7 @@ MonoBehaviour:
   direction:
     value: {x: 0, y: 0}
   move: {fileID: 1399958647}
+  playerAttack: {fileID: 1399958643}
 --- !u!1 &1297146867
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,6 +6038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterAnimationStateEnum: 0
+  hp: 0
 --- !u!114 &1399958643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6050,6 +6052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerStatus: {fileID: 1399958642}
+  playerAnimator: {fileID: 1545783449}
 --- !u!4 &1399958645
 Transform:
   m_ObjectHideFlags: 0

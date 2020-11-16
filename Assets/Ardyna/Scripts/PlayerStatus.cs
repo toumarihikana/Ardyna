@@ -5,11 +5,13 @@ using UnityEngine;
 namespace com.AmberSyndrome.Ardyna
 {
 
-    public class PlayerStatus : MonoBehaviour
+    public class PlayerStatus : MonoBehaviour,ICharacterStatus
     {
         [SerializeField] CharacterAnimationStateEnum characterAnimationStateEnum;
 
-        internal CharacterAnimationStateEnum CharacterAnimationStateEnum { get => characterAnimationStateEnum; set => characterAnimationStateEnum = value; }
-    }
+        public CharacterAnimationStateEnum CharacterAnimationStateEnum { get => characterAnimationStateEnum; set => characterAnimationStateEnum = value; }
 
+        [SerializeField] private int hp;
+        public int HP { get => hp; set => hp = value; }
+    }
 }

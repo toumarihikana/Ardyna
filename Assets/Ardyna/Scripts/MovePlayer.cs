@@ -114,13 +114,7 @@ namespace com.AmberSyndrome.Ardyna
                 }
             }
         }
-
-        public void Attack()
-        {
-            playerStatus.CharacterAnimationStateEnum = CharacterAnimationStateEnum.Attacking;
-            playerAnimator.SetTrigger("Attack");
-        }
-
+        
     }
 
 }

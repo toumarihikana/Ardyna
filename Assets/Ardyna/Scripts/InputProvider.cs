@@ -19,6 +19,7 @@ namespace com.AmberSyndrome.Ardyna
 
 
         [SerializeField] MovePlayer move;
+        [SerializeField] PlayerAttack playerAttack;
 
         void Awake()
         {
@@ -57,7 +58,7 @@ namespace com.AmberSyndrome.Ardyna
             //泥臭いやり方なイメージなので他に解決策がありそう
             if (context.performed)
             {
-                move.Attack();
+                playerAttack.Attack();
             }
         }
     }

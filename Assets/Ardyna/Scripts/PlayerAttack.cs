@@ -10,9 +10,14 @@ namespace com.AmberSyndrome.Ardyna
 
         [SerializeField] private Animator playerAnimator;
 
+        [SerializeField] GameObject punchEfectPrefab;
+        [SerializeField] GameObject punchEfectRoot;
+
+        GameObject generatedPunchEfectPrefab;
+
         public void OnRecieve()
         {
-            Debug.Log("OnRecieve");
+            //Debug.Log("OnRecieve");
             playerStatus.CharacterAnimationStateEnum = CharacterAnimationStateEnum.Waiting;
         }
 
@@ -26,6 +31,14 @@ namespace com.AmberSyndrome.Ardyna
             }
 
         }
+
+        public void PunchEffectGenerator()
+        {
+
+            generatedPunchEfectPrefab = Instantiate(punchEfectPrefab, punchEfectRoot.transform);
+            Destroy(generatedPunchEfectPrefab, 2.0f);
+        }
+
     }
 
 }
